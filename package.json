@@ -1,0 +1,25 @@
+{
+  "name": "fullstack-challenge-api",
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "Pedro Hiro Sato",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.5",
+    "swagger-ui-express": "^4.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
